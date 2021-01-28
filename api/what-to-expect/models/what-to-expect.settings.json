@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "what_to_expects",
+  "info": {
+    "name": "What To Expect",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "bannerTitle1": {
+      "type": "string"
+    },
+    "bannerBody1": {
+      "type": "string"
+    },
+    "bannerTitle2": {
+      "type": "string"
+    },
+    "bannerBody2": {
+      "type": "string"
+    },
+    "bannerTitle3": {
+      "type": "string"
+    },
+    "bannerBody3": {
+      "type": "string"
+    }
+  }
+}

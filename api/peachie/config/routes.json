@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/peachie",
+      "handler": "peachie.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/peachie",
+      "handler": "peachie.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/peachie",
+      "handler": "peachie.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

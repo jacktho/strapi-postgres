@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "who_we_serves",
+  "info": {
+    "name": "Who We Serve",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

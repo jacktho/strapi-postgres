@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/who-we-are",
+      "handler": "who-we-are.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/who-we-are",
+      "handler": "who-we-are.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/who-we-are",
+      "handler": "who-we-are.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

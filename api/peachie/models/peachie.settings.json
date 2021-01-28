@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "peachies",
+  "info": {
+    "name": "peachie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "accreditations": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "bodyTitle": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "linkedinUrl": {
+      "type": "string"
+    }
+  }
+}

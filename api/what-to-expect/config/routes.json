@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/what-to-expect",
+      "handler": "what-to-expect.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/what-to-expect",
+      "handler": "what-to-expect.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/what-to-expect",
+      "handler": "what-to-expect.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
