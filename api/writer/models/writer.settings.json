@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "writers",
   "info": {
-    "name": "Writer"
+    "name": "Writer",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -26,6 +28,9 @@
       "via": "author"
     },
     "email": {
+      "type": "string"
+    },
+    "profileSlug": {
       "type": "string"
     }
   }

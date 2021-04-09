@@ -2,16 +2,19 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 50
     },
     "slug": {
       "type": "uid",
@@ -19,8 +22,13 @@
       "required": true
     },
     "articles": {
-      "via": "category",
-      "collection": "article"
+      "collection": "article",
+      "via": "category"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
     }
   }
 }
