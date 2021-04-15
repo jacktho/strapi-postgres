@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "article_lists",
+  "collectionName": "article_subscriptions",
   "info": {
-    "name": "Article List",
+    "name": "Article Subscription",
     "description": ""
   },
   "options": {
@@ -12,14 +12,15 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "description": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
-    "buttonText": {
+    "placeholder": {
+      "type": "string"
+    },
+    "button": {
       "type": "string"
     }
   }
